@@ -58,7 +58,7 @@
 			<configuration>
 				<repository>raspinloop/configuration-service</repository>
 				<username>${env.DOCKER_USER}</username>
-        		<password>${env.DOCKER_PASS}</password>
+				<password>${env.DOCKER_PASS}</password>
 				<tag>${project.version}</tag>
 				<buildArgs>
 					<JAR_FILE>target/${project.build.finalName}.jar</JAR_FILE>
