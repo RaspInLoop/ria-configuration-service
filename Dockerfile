@@ -1,4 +1,4 @@
-FROM alpine-java:base
+FROM openjdk:8-jdk-alpine
 MAINTAINER admin@raspinloop.org
 ARG JAR_FILE
 COPY ${JAR_FILE} /opt/raspinloop/lib/app.jar
